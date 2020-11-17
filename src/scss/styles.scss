@@ -1,0 +1,22 @@
+@import "normalize";
+
+body {
+    display: flex;
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+div {
+    font-size: 30px;
+
+    @media (max-width: 767px) {
+        font-size: 20px;
+    }
+}
